@@ -52,7 +52,7 @@ ember does alot of stuff
 * `bower install`
 
 ## Fix a bug
-* open up `bower\_components/baseline/assets/js/main.js`
+* open up `bower_components/baseline/assets/js/main.js`
 ```
 // Wrap everything in main.js in a document ready function
 
