@@ -47,13 +47,22 @@ and change the name to whatever you called the application folder i.e. `my-new-p
 ember does alot of stuff
 ```
 
-
-
-
-
-## Installation
+## Hey.. more installation
 * `npm install`
 * `bower install`
+
+## Fix a bug
+* open up `bower\_components/baseline/assets/js/main.js`
+```
+// Wrap everything in main.js in a document ready function
+
+$(document).ready(function () {
+
+  //Contents of main.js goes here
+
+});
+
+```
 
 ## Run grunt in a new tab
 * `sudo grunt`
