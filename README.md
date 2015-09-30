@@ -18,8 +18,40 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
+* `git clone https://github.com/olde86/ember-baseline.git my-new-project`
+
+## Rename the application
+* `cd my-new-project`
+
+*open package.json*
+and change the name to whatever you called the application folder i.e. `my-new-project`
+```
+{
+  "name": "my-new-project",
+  ...
+```
+
+# Re initiate ember
+* `ember init`
+* Now you will promted with a very hard quiz.. here are the anwsers
+```
+[?] Overwrite README.md? No, skip
+[?] Overwrite app/index.html? Yes, overwrite
+[?] Overwrite app/templates/application.hbs? No, skip
+[?] Overwrite bower.json? No, skip
+[?] Overwrite config/environment.js? Yes, overwrite
+[?] Overwrite ember-cli-build.js? No, skip
+[?] Overwrite package.json? No, skip
+[?] Overwrite tests/index.html? Yes, overwrite
+...
+ember does alot of stuff
+```
+
+
+
+
+
+## Installation
 * `npm install`
 * `bower install`
 
